@@ -16,3 +16,5 @@ This is a static website. It has no build step, server-side runtime, or package 
 From this directory, run `vercel` to create a preview deployment, then `vercel --prod` to deploy to production. The Vercel CLI must be installed and authenticated first.
 
 The quiz itself runs in the browser. Google Fonts are loaded from Google Fonts when available; the page has system-font fallbacks.
+
+The layout adapts to narrow screens: chapter navigation becomes a horizontally scrollable, snap-aligned list, quiz controls remain touch-friendly, and selecting a chapter brings it into view.
